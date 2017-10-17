@@ -6,7 +6,10 @@ var person = {
         console.log(text);
     },
     hello: function () {
-        console.log("Hello, I am " + this.name + ".");
+        var text = "Hello, I am " + this.name + ".";
+        console.log(text);
+        this.speak(text);
+        //console.log("Hello, I am " + this.name + ".");
     }
 };
 
